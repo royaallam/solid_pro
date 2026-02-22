@@ -6,7 +6,7 @@ class CreditCardPay  extends IPaymentMethod {
   @override
   double calcateFee(double amount) {
 
-    return amount + (amount * 0.025);
+    return  amount * 0.025;
 
   }
 

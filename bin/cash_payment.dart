@@ -7,8 +7,8 @@ import '../bin/interface/i_payment_method.dart';
   CashPayment(this._phoneNumber);
   @override
   double calcateFee(double amount) {
-    // TODO: implement calcateFee
-    return amount;
+    
+    return 0;
   }
  
   @override

@@ -1,10 +1,8 @@
 
-
-
-
 abstract class  IPaymentMethod{
 
-   String getMethodName();
+String getMethodName();
+   
   double calcateFee(double amount);
 
 
